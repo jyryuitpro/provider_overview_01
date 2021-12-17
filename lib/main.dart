@@ -115,6 +115,7 @@ class Middle extends StatelessWidget {
       padding: const EdgeInsets.all(20.0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
+        // Row의 사이는 children이 필요한 사이즈만 가지도록 설정
         mainAxisSize: MainAxisSize.min,
         children: [
           CounterB(counter: counter),
